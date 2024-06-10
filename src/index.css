@@ -1,0 +1,58 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body{
+  background-color: #141414;
+  color: #fff;
+}
+
+.art{
+  padding: 5px 5px 0px 0px;
+}
+
+.card-stats{
+  color: #f8f4f4;
+  font-weight: 700;
+  padding: 10px;
+  height: 70px;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  box-shadow: 5px 5px 4px #ffffff0e;
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card-stats:hover{
+  scale: .96;
+  border-color: #0095ff;
+}
+
+.cont-datos{
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #0095ff;
+  font-style: italic;
+}
+
+.cont-incons{
+  display: flex;
+  font-size: .5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-incons i{
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+
+.gren{
+  color: rgb(0, 255, 0);
+}
+.red{
+  color: rgb(255, 0, 0);
+}
